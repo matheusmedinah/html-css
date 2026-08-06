@@ -13,6 +13,7 @@
             background-size: cover;
             background-attachment: fixed;
             margin: 0px;
+            min-height: 100vh;
         }
 
         header {
@@ -28,14 +29,10 @@
             font-size: 3em;
             font-family:  cursive;
             background-color: white;
-            margin: 10px;
-            padding-left: 10px;
-            padding-bottom: 50px;
-            padding-top: 50px;
-            padding-right: 10px;
-            margin-left: 0px;
-            margin-right: 0px;
-            
+            padding-left: 30px;
+            padding-bottom: 10vh;
+            padding-top: 10vh;
+            line-height: 2em;
         }
 
         div {
@@ -61,15 +58,24 @@
             color: white;
         }
 
+        #ut {
+            margin-bottom: 0px;
+        }
 
         p {
             margin: 5px;
+            padding-left: 50px;
+            line-height: 2em;
         }
 
         a {
             text-decoration: none;
             color: white;
-            font-weight: bold;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         footer {
@@ -84,7 +90,7 @@
 <body>
     <header>
         <h1 class="sekuya-regular">CORDEL MODERNO</h1>
-        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743">Milton Duarte</a></p>
+        <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743" target="_blank">Milton Duarte</a></p>
     </header>
 
     <section >
@@ -142,7 +148,7 @@
                 Nas linhas do coração.
             </p>
         
-        <section>
+        <section id="ut">
             <p>
                 Agora, escrevo e envio <br>
                 Chegando na mesma hora <br>
@@ -164,6 +170,6 @@
             </p>
         </section>
 
-        <footer>Site criado por <a href="matheusmedinah.github.io">Matheus Medina</a></footer>
+        <footer>Site criado por <a href="https://github.com/matheusmedinah" target="_blank">Matheus Medina</a></footer>
 </body>
 </html>
