@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias quas iusto quae cupiditate quod tempore iure voluptatibus placeat labore, aperiam quibusdam quo! A ab deleniti aliquid. Beatae, vel alias?</p>
+
+    <ul>
+        <li><a href="pagina01.html" target="frame">Primeira pagina</a></li>
+        <li><a href="pagina02.html" target="frame">Segunda pagina</a></li>
+        <li><a href="pagina03.html" target="frame">Terceira pagina</a></li>
+    </ul>
+
+    <iframe name="frame" srcdoc="<h1> Escolha uma das opções acima </h1> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quae error vel deleniti deserunt beatae cumque! A porro, ullam explicabo doloremque veritatis dicta. Ab, veniam facilis! Vel magnam repellat voluptas.</p><img src='imagem/d.jpg'> " frameborder="0">
+        <p>Infelizmente seu navegador nao é compativel</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quae error vel deleniti deserunt beatae cumque! A porro, ullam explicabo doloremque veritatis dicta. Ab, veniam facilis! Vel magnam repellat voluptas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, impedit amet dicta accusantium vel debitis necessitatibus commodi quae nihil similique, voluptates ullam, dolor iure adipisci et ut porro nisi maiores! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptate cumque quaerat ad laudantium explicabo, debitis sapiente sed odit modi vitae accusantium qui porro soluta earum obcaecati? Atque, amet error.</p>
+</body>
+</html>
