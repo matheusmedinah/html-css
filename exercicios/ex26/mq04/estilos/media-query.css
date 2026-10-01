@@ -15,8 +15,7 @@
     img#print {display: none;}
 }
 
-@media screen and (min-width: 600px) and (max-width: 768px) {
-    background: url(../imagens/back-phone.jpg);
+
 @media screen and (min-width: 992px) and (max-width: 1200px) {
     body{
         background: url(../imagens/back-pc.jpg);
